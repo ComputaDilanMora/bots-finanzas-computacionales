@@ -34,4 +34,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add state/
-          git diff --staged --quiet || (git pull --rebase && git commit -m "Actualiza estado bb_macd" && git push)
+          if ! git diff --staged --quiet; then
+            git commit -m "Actualiza estado bb_macd"
+            git pull --rebase
+            git push
+          fi
