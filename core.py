@@ -41,7 +41,7 @@ def gestionar_alerta(nombre, ticker, temporalidad, senal, precio, detalle) -> bo
 
     avisó = False
     if senal != 0 and senal != anterior:
-        tipo = "🟢 COMPRA (LONG)" if senal == 1 else "🔴 VENTA (SHORT)"
+        tipo = "🟢 COMPRA" if senal == 1 else "🔴 VENTA"
         enviar_telegram(
             f"*{tipo} — {nombre.upper()}*\n"
             f"• *Activo:* `{ticker}` ({temporalidad})\n"
