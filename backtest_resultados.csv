@@ -1,0 +1,6 @@
+estrategia,activo,velas,señales_compra,señales_venta,operaciones,retorno_estrategia_%,retorno_buy&hold_%,max_drawdown_%,tiempo_en_mercado_%
+envelopes_rsi,ETH-USD,17462,667,669,46,-72.54,-43.83,-74.54,51.5
+ema_elder_ray,BTC-USD,1826,820,870,38,86.7,-1.31,-55.52,48.6
+ichimoku_wr,EURUSD=X,17264,494,452,78,-16.85,1.67,-17.49,52.6
+bb_macd,^GSPC,1255,551,398,35,28.78,61.48,-15.48,57.2
+envelopes_wr_macd,SOL-USD,17464,553,633,79,-70.42,-68.68,-72.91,49.1
